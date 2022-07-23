@@ -1,0 +1,119 @@
+body {
+    background-image: url('IMG_5942.JPG');
+    background-color: silver;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1.header {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Luminari', fantasy;
+    background: linear-gradient(to left,
+            rgba(128,128,128,0),
+            rgba(128,128,128,0.4),
+            silver,
+            ghostwhite,
+            silver,
+            silver,
+            silver,
+            ghostwhite,
+            silver,
+            rgba(128,128,128,0.4),
+            rgba(128,128,128,0));
+}
+.subtitty {
+    font-size: 30px;
+    font-family: 'Luminari', fantasy;
+}
+
+div.nav {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    /* background-color: silver; */
+    background: linear-gradient(to bottom,
+    rgba(248,248,225,0),
+    rgba(15, 225, 0, 0.8),
+    rgba(248,248,225,0.8),
+    ghostwhite,
+    ghostwhite,
+    rgba(248,248,225,0.8),
+    rgba(15, 225, 0, 0.8),
+    rgba(248,248,225,0));
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a.nav {
+    font-size: 30px;
+    font-family: 'Luminari', fantasy;
+    color: black;
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+a.nav:hover {
+    color: blue;
+}
+
+p.intro {
+    background: linear-gradient(to left,
+            rgba(128,128,128,0),
+            rgba(128,128,128,0.8),
+            silver,
+            ghostwhite,
+            silver,
+            silver,
+            silver,
+            ghostwhite,
+            silver,
+            rgba(128,128,128,0.8),
+            rgba(128,128,128,0));
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Luminari', fantasy;
+    color: black;
+    /* border: 1px solid silver; */
+    /* -webkit-text-stroke: 1px salmon; */
+}
+b.ourstory {
+    font-size: 30px;
+    font-family: 'Luminari', fantasy;
+}
+
+img.ali {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    width: 20%;
+}
+img.max {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    width: 20%;
+}
+
+a.site {
+    position: relative;
+    color: black;
+    text-align: left;
+    left: 0;
+}
+a.site:hover {
+    background: none;
+    color: blue;
+}
