@@ -210,7 +210,7 @@ a.site:hover {
     color: blue;
 }
 
-ul {
+ul.mov {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
@@ -218,7 +218,7 @@ ul {
     width: 80%;
     padding: 30px;
     font-family: 'Luminari', fantasy;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     color: black;
     list-style-position: inside;
@@ -235,8 +235,22 @@ ul {
     rgba(128,128,128,0.8),
     rgba(128,128,128,0));
 }
+li.mov {
+    position: relative;
+    left: 33%;
+    width: 50%;
+    margin: 0;
+}
+li.fmov {
+    position: relative;
+    left: 40%;
+    width: 50%;
+    margin: 0;
+}
 i.sub {
-    font-size: 18px;
+    font-size: 15px;
+    position: relative;
+    left: 35%;
 }
 img.linksym {
     height: 18px;
