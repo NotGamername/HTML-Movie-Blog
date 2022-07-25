@@ -237,27 +237,35 @@ ul.mov {
 }
 li.mov {
     position: relative;
-    left: 33%;
-    width: 39%;
+    left: 31%;
+    width: 40%;
     margin: 0;
+    text-indent: -27px;
+    margin-left: 27px;
 }
 li.fmov {
     position: relative;
-    left: 40%;
+    left: 39%;
+    width: 40%;
+    margin: 0;
+    text-indent: -27px;
+    margin-left: 27px;
+}
+li.wmov {
+    position: relative;
+    left: 36%;
     width: 30%;
     margin: 0;
+    text-indent: -27px;
+    margin-left: 27px;
+}
+div.sub {
+    width: 38%;
+    position: relative;
+    left: 33%;
 }
 i.sub {
     font-size: 15px;
-    position: relative;
-    left: 35%;
-}
-img.linksym {
-    height: 18px;
-    width: 18px;
-    position: relative;
-    display: inline;
-    vertical-align: middle;
 }
 
 
