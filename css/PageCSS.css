@@ -83,6 +83,7 @@ a.nav {
     margin-top: 32px;
     margin-left: 40px;
     margin-right: 40px;
+    left: 25px;
 }
 a.nav:hover {
     color: blue;
