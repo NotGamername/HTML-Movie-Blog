@@ -30,45 +30,33 @@ h1.header {
     font-family: 'Luminari', fantasy;
 }
 
-/* div.nav {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    background: linear-gradient(to bottom,
-    rgba(248,248,225,0),
-    rgba(15, 225, 0, 0.8),
-    rgba(248,248,225,0.8),
-    ghostwhite,
-    ghostwhite,
-    rgba(248,248,225,0.8),
-    rgba(15, 225, 0, 0.8),
-    rgba(248,248,225,0));
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-a.nav {
-    font-size: 30px;
-    font-family: 'Luminari', fantasy;
-    color: black;
-    position: relative;
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-a.nav:hover {
-    color: blue;
-} */
-
 div.nav {
     position: relative;
     display: inline-block;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    margin-top: -90px;
+    padding: 0;
+    text-align: center;
+}
+.innav {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 14px;
+    width: 300px;
+    transform: scaleX(-1);
+    z-index: 1;
+}
+div.saber {
+    position: absolute;
+    display: inline-block;
     text-align: left;
     width: 75%;
-    margin: 0;
-    margin-left: 17%;
-    /* background-color: silver; */
+    height: 40px;
     background: linear-gradient(to bottom,
     rgba(248,248,225,0),
     rgba(15, 225, 0, 0.8),
@@ -78,6 +66,10 @@ div.nav {
     rgba(248,248,225,0.8),
     rgba(15, 225, 0, 0.8),
     rgba(248,248,225,0));
+    margin: 0;
+    margin-top: 32px;
+    left: 275px;
+    margin-right: 10%;
     padding-top: 0px;
     padding-bottom: 0px;
     border-radius: 20px;
@@ -88,33 +80,20 @@ a.nav {
     color: black;
     position: relative;
     display: inline-block;
-    left: 5%;
+    margin-top: 32px;
     margin-left: 40px;
     margin-right: 40px;
 }
 a.nav:hover {
     color: blue;
 }
-img.nav {
-    display: inline;
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    left: 1%;
-    top: 8.7%;
-    width: 20%;
-    transform: scaleX(-1);
-    z-index: 1;
-}
 
 div.navf {
-    position: relative;
+    position: absolute;
     display: inline-block;
     text-align: left;
     width: 75%;
-    margin: 0;
-    margin-left: 17%;
-    /* background-color: silver; */
+    height: 40px;
     background: linear-gradient(to bottom,
     rgba(248,248,225,0),
     rgba(225, 0, 0, 0.8),
@@ -124,18 +103,21 @@ div.navf {
     rgba(248,248,225,0.8),
     rgba(225, 0, 0, 0.8),
     rgba(248,248,225,0));
+    margin: 0;
+    margin-top: 32px;
+    left: 275px;
+    margin-right: 10%;
     padding-top: 0px;
     padding-bottom: 0px;
     border-radius: 20px;
 }
-img.navf {
-    display: inline;
+.innavf {
     position: absolute;
+    display: inline-block;
+    left: 0;
     padding: 0;
     margin: 0;
-    left: 1%;
-    top: 17.2%;
-    width: 19%;
+    width: 320px;
     z-index: 1;
 }
 
@@ -167,7 +149,7 @@ p.intro {
             silver,
             rgba(128,128,128,0.8),
             rgba(128,128,128,0));
-    margin-top: 45px;
+    /* margin-top: 45px; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
@@ -182,21 +164,6 @@ p.intro {
 b.ourstory {
     font-size: 30px;
     font-family: 'Luminari', fantasy;
-}
-
-img.ali {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 45px;
-    width: 20%;
-}
-img.max {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 45px;
-    width: 20%;
 }
 
 a.site {
